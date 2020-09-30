@@ -11,12 +11,12 @@ ${badges[data.license]}
 ## Description
 ${data.description}
 ## Table of Contents
-- [Installation](#Installation)
-- Usage
-- License
-- Contributing
-- Tests
-- Questions
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)
 ## Installation
 To install necessary dependencies, run the following command:
 \`\`\`
@@ -25,7 +25,7 @@ ${data.install}
 ## Usage
 ${data.usage}
 ## License
-This application is covered by the ${data.license}
+This application is covered by the ${data.license} license
 ## Contributing
 ${data.contributing}
 ## Tests
@@ -33,8 +33,8 @@ ${data.contributing}
 ${data.test}
 \`\`\` 
 ## Questions
-Find all of my repos at ${data.username}
-Feel free to email me at ${data.email} with any questions
+Find all of my repos at ${data.username}. \n
+Please email me at ${data.email} with any questions.
 `;
 }
 
