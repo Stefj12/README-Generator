@@ -29,7 +29,7 @@ const questions = [
         type: "list",
         message: "What license would you like your project to have?",
         name: "license",
-        choices: ["MIT", "Other License", "Other other license"]
+        choices: ["MIT", "GPL", "Creative Commons"]
     },
     {
         type: "input",
