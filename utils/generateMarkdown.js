@@ -1,5 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  // code to display license the license badge, selected by key
   var badges = {
     MIT: "[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)",
     GPLv3: "[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)",
@@ -25,7 +26,8 @@ ${data.install}
 ## Usage
 ${data.usage}
 ## License
-This application is covered by the ${data.license} license
+${badges[data.license]} \n
+This application is covered by the ${data.license} license.
 ## Contributing
 ${data.contributing}
 ## Tests
