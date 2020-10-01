@@ -66,7 +66,7 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(function(response){
-        writeToFile("README-generated.md", response)
+        writeToFile("README.md", response)
     })
 }
 
